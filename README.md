@@ -5,7 +5,7 @@ This GitHub repository contains the code needed to reproduce the article of the 
 Disclaimer: Due to (I assume) certain issues related to the precision of floats in Python and the conversion of the files used in writing the article into a single shared dataset, it was not possible to reproduce the article exactly without manually adjusting the values of a few samples (we’re talking about fewer than 10 values out of several thousand). Some code files therefore contain lines dedicated to the “pixel-perfect” reproduction of the article’s figures and tables.
 
 The repository is organized as follows:
-
+```
 root/
 ├── data/
 │   ├── open_medic_data/
@@ -36,7 +36,7 @@ root/
 │       └── viral_data_analysis.ipynb
 ├── requirements.txt
 └── README.md
-
+```
 The libs folder contains the source code for the denoising model and the cross-correlation algorithm.
 The src folder contains the code needed to reproduce the results presented in the article, organized into three distinct sections covering population estimation, viral data analysis, and organic micropollutants data analysis.
 
